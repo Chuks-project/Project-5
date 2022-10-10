@@ -18,10 +18,16 @@ To demonstrate Client-Server architecture we will be using two Ec2 instance with
 
   `sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf`
   
+- On the mysql server, create a USER, CLIENT and grant ALL permission to the User
+
+     ![7 rows created](https://user-images.githubusercontent.com/65022146/194963905-3f91006c-aa2c-4754-9f9c-6e0f827171c3.png)
+
 - From mysql client Linux Server connect remotely to mysql server Database Engine without using SSH. You must use the mysql utility to perform this action.
 
-- Check that you have successfully connected to a remote MySQL server and can perform SQL queries. You should something similar to the screenshot below:
+ - Check that you have successfully connected to a remote MySQL server and can perform SQL queries. You should something similar to the screenshot below:
+
+     ![Coonected from the client server](https://user-images.githubusercontent.com/65022146/194962720-c2a099ab-5097-4dc4-83d3-40ee0a627543.png)
+  
 
 
-  ![project 5](https://user-images.githubusercontent.com/52359007/165758860-469dc6e0-326b-4cee-b083-f64a8497b6bd.PNG)
 
